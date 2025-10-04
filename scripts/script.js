@@ -51,12 +51,6 @@ function generatePixelGrid() {
             header.textContent = 'written, '; 
         });
 
-        // typing based on colors
-        pixel.addEventListener('click', () => {
-            write.textContent += char;
-            console.log(char);
-        })
-
         pixelGrid.appendChild(pixel);
     });
 
